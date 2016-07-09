@@ -27,9 +27,12 @@ By Kwang Ho Hur
 
 ## Steps
 	1. Using Public Data
-	- [x] Identify blighted houses/buildings from Demolition Permits (pandas in Python) : address, latitude, and longitude
-	- [x] Identify unblighted houses/buildings from Blight Violation Tickets (pandas in Python) : address, latitude, and longitude
-	- [x] Assign the number of blight violation tickets, the number of crimes, and the number of 311 calls to blighted/non-blighted houses/buildings (numpy in Python)
+	- [x] Identify blighted houses/buildings from Demolition Permits (pandas in Python)\s\s
+	      : address, latitude, and longitude
+	- [x] Identify unblighted houses/buildings from Blight Violation Tickets (pandas in Python)\s\s 
+	      : address, latitude, and longitude
+	- [x] Assign the number of blight violation tickets, the number of crimes, and the number of 311 calls\s\s 
+		  to blighted/non-blighted houses/buildings (numpy in Python)
 	- [x] Build a K-Nearest Neighbor Classification model.
 	- [ ] Consider ViolationCode, Disposition, and PaymentStatus in Blight Violation Tickets.
 	- [ ] Consider Category, Precinct in Crimes
