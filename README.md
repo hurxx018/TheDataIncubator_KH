@@ -9,9 +9,9 @@ By Kwang Ho Hur
 * This issue has been much more serious in Detroit because of the enormous decline of its population during the last 60 years. In the city, lots of houses have been abandoned. This enables me to build a classification model where the number of blighted houses is high enough to be detectable. Otherwise, we need develop an anomaly detection model. 
 
 ## Solution
-- 1. Build a classification model which can identify blighted houses in the city.
-- 2. Evaluate the accuracy of the model 
-- 3. Develop a method employing images 
+1. Build a classification model which can identify blighted houses in the city.
+2. Evaluate the accuracy of the model 
+3. Develop a method employing images 
 
 ## Data
 * Phase 1
