@@ -26,7 +26,7 @@ By Kwang Ho Hur
 * Build a classification model with a metric precision.
 
 ## Steps
-1. Using Public Data
+1. **Using Public Data**
 	- [x] Identify blighted houses/buildings from Demolition Permits (pandas in Python)
 	      : address, latitude, and longitude
 	- [x] Identify unblighted houses/buildings from Blight Violation Tickets (pandas in Python) 
