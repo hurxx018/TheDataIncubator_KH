@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Detection of Blighted Houses : Develop a model detecting blighted houses.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Detection of Blighted Houses</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/hurxx018/TheDataIncubator_KH">View on GitHub</a>
+
+          <h1 id="project_title">Detection of Blighted Houses</h1>
+          <h2 id="project_tagline">Develop a model detecting blighted houses.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/hurxx018/TheDataIncubator_KH/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/hurxx018/TheDataIncubator_KH/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="detection-of-blighted-houses-in-detroit" class="anchor" href="#detection-of-blighted-houses-in-detroit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Detection of Blighted Houses in Detroit</h1>
+
+<p>By Kwang Ho Hur</p>
+
+<h2>
+<a id="issue-and-motivation" class="anchor" href="#issue-and-motivation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue and Motivation</h2>
+
+<ul>
+<li>Blighted houses or buildings are problematic in a lot of cities because of
+
+<ul>
+<li>Threat to public safety</li>
+<li>More blighted houses can be created in the neighborhood. </li>
+<li>Concern for real estate</li>
+</ul>
+</li>
+<li>This issue has been much more serious in Detroit because of the enormous decline of its population during the last 60 years. In the city, lots of houses have been abandoned. This enables me to build a classification model where the number of blighted houses is high enough to be detectable. Otherwise, we need develop an anomaly detection model. </li>
+</ul>
+
+<h2>
+<a id="solution" class="anchor" href="#solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Solution</h2>
+
+<ol>
+<li>Build a classification model which can identify blighted houses in the city.</li>
+<li>Evaluate the accuracy of the model </li>
+<li>Develop a method employing images </li>
+</ol>
+
+<h2>
+<a id="data" class="anchor" href="#data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data</h2>
+
+<ul>
+<li>Phase 1
+Using public data from Detroit
+
+<ul>
+<li>Demolition Permits</li>
+<li>Blight Violation Tickets</li>
+<li>Crimes</li>
+<li>311 Calls</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow</h2>
+
+<ul>
+<li>Perform feature engineering to build a sructured data from four sets of data.</li>
+<li>Build a classification model with a metric precision.</li>
+</ul>
+
+<h2>
+<a id="steps" class="anchor" href="#steps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Steps</h2>
+
+<ol>
+<li>
+<p>Using Public Data</p>
+
+<ul>
+<li>[x] Identify blighted houses/buildings from Demolition Permits (pandas in Python)
+  : address, latitude, and longitude</li>
+<li>[x] Identify unblighted houses/buildings from Blight Violation Tickets (pandas in Python) 
+  : address, latitude, and longitude</li>
+<li>[x] Assign the number of blight violation tickets, the number of crimes, and the number of 311 calls 
+  to blighted/non-blighted houses/buildings (numpy in Python)</li>
+<li>[x] Build a K-Nearest Neighbor Classification model.</li>
+<li>[ ] Consider ViolationCode, Disposition, and PaymentStatus in Blight Violation Tickets.</li>
+<li>[ ] Consider Category, Precinct in Crimes</li>
+<li>[ ] Consider Issue_type, Rating in 311 Calls</li>
+</ul>
+</li>
+<li>
+<p>Using images</p>
+
+<ul>
+<li>[ ] Collect images of blighted houses/buildings</li>
+<li>[ ] Collect images of non-blighted houses/buildings</li>
+</ul>
+</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Detection of Blighted Houses maintained by <a href="https://github.com/hurxx018">hurxx018</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
